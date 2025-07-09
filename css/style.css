@@ -1,0 +1,10 @@
+:root {
+    --first-color: hsl(47, 88%, 63%);
+    --second-color: hsl(0, 0%, 100%);
+    --third-color: hsl(0, 0%, 42%);
+    --four-color: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--first-color);
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree/static/Figtree-Medium.ttf) format('truetype');
+    font-weight: 500, 800;
+    font-style: normal;
+}

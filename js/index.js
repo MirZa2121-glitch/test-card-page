@@ -48,9 +48,10 @@ $inner.style.justifyContent = 'center';
 
 const $card = document.createElement('div');
 $inner.appendChild($card);
+$card.classList.add('card');
     
 $card.style.width = '320px';
-$card.style.height = '490px';
+$card.style.height = '500px';
 $card.style.borderRadius = '20px';
 $card.style.backgroundColor = `${$color.color2}`;
 $card.style.boxShadow = '10px 10px 0px rgba(0, 0, 0, 20)';
